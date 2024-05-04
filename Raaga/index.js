@@ -13,8 +13,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 let connection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Hasitha@1234",
-    database: "data_music",
+    password: "#Andrea$1612",
+    database: "music7",
 });
 
 app.get("/", (req, res) => {
